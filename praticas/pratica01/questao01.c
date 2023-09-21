@@ -8,9 +8,18 @@ int main(){
 float nota_a1 = 5.5f;
 float nota_a2 = 4.0f;
 
+printf("Atribua a nota da A1: ");
+scanf("%f", &nota_a1);
+printf("Atibua a nota da A2: ");
+scanf("%f", &nota_a2);
+
 float media = 0.4 * nota_a1 + 0.6 * nota_a2;
 
-printf("A media é %f\n", media);
+printf("A media é %3.2f\n", media);
+  
+  
+  
+  
 
   return 0;
 }
